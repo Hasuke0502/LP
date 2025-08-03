@@ -20,16 +20,6 @@
     "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=225&fit=crop&auto=format",
     "featured": true,
     "comingSoon": true
-  },
-  {
-    "id": "fitness-tracker",
-    "title": "フィットネストラッカー",
-    "description": "運動習慣を楽しく継続できるフィットネスアプリ。個人の体力レベルに合わせたワークアウトプランと、友達との競争機能で達成感を得られます。",
-    "shortDescription": "楽しく続けられるフィットネスアプリ",
-    "category": "フィットネス",
-    "tags": ["運動", "フィットネス", "健康管理", "習慣化"],
-    "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=225&fit=crop&auto=format",
-    "playStoreUrl": "https://play.google.com/example",
-    "featured": false
   }
+  
 ] 

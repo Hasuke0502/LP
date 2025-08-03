@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "習慣化テック | 科学に基づいた習慣化アプリ & Webアプリ開発講座",
-  description: "ゲーミフィケーションで楽しく継続できる習慣化アプリと、Next.js・TypeScriptを使った実践的なWebアプリ開発を対面で学べる講座をご紹介。個人のペースに合わせたサポートで確実にスキルアップ。",
+  title: "Habit Labo | 科学に基づいた習慣化アプリ & Webアプリ開発講座",
+  description: "ゲーミフィケーションで楽しく継続できる習慣化アプリと、対面Ⅿで",
   keywords: "習慣化, アプリ開発, Next.js, TypeScript, React, Webアプリ, 対面講座, プログラミング学習, ゲーミフィケーション",
   authors: [{ name: "習慣化テック" }],
   openGraph: {

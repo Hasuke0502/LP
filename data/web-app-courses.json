@@ -11,33 +11,5 @@
     "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=225&fit=crop&auto=format",
     "detailUrl": "/courses/nextjs-habit-app",
     "featured": true
-  },
-  {
-    "id": "react-fundamentals",
-    "title": "React基礎マスター講座",
-    "description": "Reactの基本概念から始めて、コンポーネント設計、状態管理、Hooksまでを丁寧に学習。初心者でも安心して受講できる充実のサポート体制。",
-    "shortDescription": "React初心者向けの基礎講座",
-    "instructor": "佐藤花子",
-    "duration": "6週間（週1回 × 4時間）",
-    "price": 59800,
-    "level": "beginner",
-    "technologies": ["React", "JavaScript", "HTML", "CSS"],
-    "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=400&h=225&fit=crop&auto=format",
-    "detailUrl": "/courses/react-fundamentals",
-    "featured": false
-  },
-  {
-    "id": "fullstack-development",
-    "title": "フルスタック開発マスター講座",
-    "description": "フロントエンドからバックエンド、データベース、デプロイまで、Webアプリ開発に必要な全ての技術を習得。実際のプロジェクトを通じて実務レベルのスキルを身につけます。",
-    "shortDescription": "フロントエンドからバックエンドまで",
-    "instructor": "田中一郎",
-    "duration": "12週間（週3回 × 2.5時間）",
-    "price": 149800,
-    "level": "advanced",
-    "technologies": ["Next.js", "Node.js", "PostgreSQL", "Docker", "AWS"],
-    "image": "https://images.unsplash.com/photo-1517180102446-f3ece451e9d8?w=400&h=225&fit=crop&auto=format",
-    "detailUrl": "/courses/fullstack-development",
-    "featured": false
   }
 ] 
