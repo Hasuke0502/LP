@@ -16,12 +16,12 @@ export function Hero() {
           {/* Main heading */}
           <div className="space-y-4">
             <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent leading-tight">
-              習慣を変える
-              <br />
-              <span className="text-3xl sm:text-4xl lg:text-6xl">アプリ & 技術</span>
+              Habit Labo
+              
+              
             </h1>
             <p className="text-lg sm:text-xl lg:text-2xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto leading-relaxed">
-              科学に基づいた習慣化アプリと、それを作る技術を学べる
+              科学に基づいた<span className="font-semibold text-blue-600 dark:text-blue-400">習慣化アプリ</span>と、それを作る技術を学べる
               <br />
               <span className="font-semibold text-blue-600 dark:text-blue-400">対面講座</span>
               をご紹介します

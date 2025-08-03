@@ -1,5 +1,4 @@
-import { Mail, Github, Twitter, Heart } from 'lucide-react';
-import { Button } from './ui/Button';
+import { Github, Twitter, Heart } from 'lucide-react';
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
@@ -7,7 +6,7 @@ export function Footer() {
   return (
     <footer className="bg-gray-900 text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Company info */}
           <div className="space-y-4">
             <h3 className="text-xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
@@ -17,13 +16,6 @@ export function Footer() {
               科学に基づいた習慣化アプリと、それを作る技術を学べる対面講座を提供しています。
             </p>
             <div className="flex space-x-4">
-              <a
-                href="mailto:contact@example.com"
-                className="text-gray-400 hover:text-white transition-colors"
-                aria-label="メール"
-              >
-                <Mail className="w-5 h-5" />
-              </a>
               <a
                 href="https://github.com"
                 target="_blank"
@@ -50,14 +42,19 @@ export function Footer() {
             <h4 className="font-semibold">アプリ</h4>
             <ul className="space-y-2 text-sm">
               <li>
-                <a href="#" className="text-gray-400 hover:text-white transition-colors">
+                <a 
+                  href="https://kinnen-gnff.vercel.app/" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
                   禁煙30日チャレンジ
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-400 hover:text-white transition-colors">
-                  デイリーマインドフルネス
-                </a>
+                <span className="text-gray-500 cursor-not-allowed">
+                  ダイエット30日チャレンジ（準備中）
+                </span>
               </li>
               <li>
                 <a href="#" className="text-gray-400 hover:text-white transition-colors">
@@ -73,35 +70,20 @@ export function Footer() {
             <ul className="space-y-2 text-sm">
               <li>
                 <a href="#" className="text-gray-400 hover:text-white transition-colors">
-                  Next.js習慣化アプリ開発
+                  鹿児島市限定Webアプリ講座
                 </a>
               </li>
               <li>
                 <a href="#" className="text-gray-400 hover:text-white transition-colors">
-                  React基礎マスター
+                  React基礎マスター講座
                 </a>
               </li>
               <li>
                 <a href="#" className="text-gray-400 hover:text-white transition-colors">
-                  フルスタック開発
+                  フルスタック開発マスター講座
                 </a>
               </li>
             </ul>
-          </div>
-
-          {/* Contact */}
-          <div className="space-y-4">
-            <h4 className="font-semibold">お問い合わせ</h4>
-            <div className="space-y-3">
-              <Button variant="outline" className="w-full" asChild>
-                <a href="#contact">
-                  無料相談申し込み
-                </a>
-              </Button>
-              <p className="text-xs text-gray-400">
-                講座に関するご質問や、アプリ開発のご相談など、お気軽にお問い合わせください。
-              </p>
-            </div>
           </div>
         </div>
 
