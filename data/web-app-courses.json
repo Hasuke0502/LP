@@ -1,10 +1,10 @@
 [
   {
     "id": "nextjs-habit-app-course",
-    "title": "【鹿児島市限定】飲み会1回分でWebアプリを作ろう",
+    "title": "【鹿児島市限定】飲み会1回分でWebアプリの作り方を学ぼう",
     "instructor": "よーすけ",
     "description": "飲み会1回分でWebアプリを作ろう",
-    "shortDescription": "実践的なWebアプリ開発を習得",
+    "shortDescription": "飲み会一回分で人生を変える知識を手に入れませんか？",
     "duration": "3時間",
     "price": 2800,
     "technologies": ["Next.js", "TypeScript", "Supabase", "Stripe", "cursorAI"],
