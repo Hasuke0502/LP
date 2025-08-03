@@ -1,0 +1,35 @@
+[
+  {
+    "id": "smoke-free-challenge",
+    "title": "禁煙30日チャレンジ",
+    "description": "科学に基づいた禁煙メソッドで、30日間の挑戦をサポート。マネーモンスターとゲーム要素で楽しく継続できます。参加費をかけることで本気度を高め、成功時の返金や慈善団体への寄付も選択可能。",
+    "shortDescription": "「いくらお金をかけても禁煙できない。」そんな悩みを抱える友達のためにアプリを作りました。そのお金取り戻しませんか？？",
+    "category": "健康・ウェルネス",
+    "tags": ["禁煙", "習慣化", "健康"],
+    "image": "https://images.unsplash.com/photo-1612198188060-c7c2a3b66eae?w=400&h=225&fit=crop&auto=format",
+    "webUrl": "https://kinnen-gnff.vercel.app/",
+    "featured": true
+  },
+  {
+    "id": "diet-challenge",
+    "title": "ダイエット30日チャレンジ",
+    "description": "「頑張っているのにダイエットが成功しない。」同僚から毎日のように相談されます。私は過去に12kgのダイエットに成功しました。しかし努力なんていらないんです。大切なことは「習慣作り」1択です。",
+    "shortDescription": "「頑張っているのにダイエットが成功しない。」同僚から毎日のように相談されます。私は過去に12kgのダイエットに成功しました。しかし努力なんていらないんです。大切なことは「習慣作り」1択です。あなたもそんな習慣をみにつけて、ダイエットを今度こそ成功させませんか？",
+    "category": "健康・ウェルネス",
+    "tags": ["ダイエット", "健康管理", "習慣化", "運動"],
+    "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=225&fit=crop&auto=format",
+    "featured": true,
+    "comingSoon": true
+  },
+  {
+    "id": "fitness-tracker",
+    "title": "フィットネストラッカー",
+    "description": "運動習慣を楽しく継続できるフィットネスアプリ。個人の体力レベルに合わせたワークアウトプランと、友達との競争機能で達成感を得られます。",
+    "shortDescription": "楽しく続けられるフィットネスアプリ",
+    "category": "フィットネス",
+    "tags": ["運動", "フィットネス", "健康管理", "習慣化"],
+    "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=225&fit=crop&auto=format",
+    "playStoreUrl": "https://play.google.com/example",
+    "featured": false
+  }
+] 
