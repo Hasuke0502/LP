@@ -7,9 +7,10 @@
     "category": "健康・ウェルネス",
     "tags": ["禁煙", "習慣化", "健康"],
     "image": "https://images.unsplash.com/photo-1612198188060-c7c2a3b66eae?w=400&h=225&fit=crop&auto=format",
-    "webUrl": "https://kinnen-gnff.vercel.app/",
+    "webUrl": "https://kinnen.vercel.app/",
     "featured": true
   },
+  
   {
     "id": "diet-challenge",
     "title": "ダイエット30日チャレンジ",
@@ -21,5 +22,4 @@
     "featured": true,
     "comingSoon": true
   }
-  
-] 
+]

@@ -88,3 +88,15 @@ export interface ContactForm {
   email: string;
   message: string;
 } 
+
+export interface SupplementProduct {
+  id: string;
+  title: string;
+  description: string;
+  category: string;
+  tags: string[];
+  image: string;
+  iherbUrl: string;
+  price: string;
+  featured: boolean;
+}

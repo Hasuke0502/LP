@@ -17,8 +17,13 @@ export const metadata: Metadata = {
   description: "ゲーミフィケーションで楽しく継続できる習慣化アプリと、対面Ⅿで",
   keywords: "習慣化, アプリ開発, Next.js, TypeScript, React, Webアプリ, 対面講座, プログラミング学習, ゲーミフィケーション",
   authors: [{ name: "習慣化テック" }],
+  icons: {
+    icon: [{ url: "/favicon.png", type: "image/png" }],
+    shortcut: "/favicon.png",
+    apple: "/favicon.png",
+  },
   openGraph: {
-    title: "習慣化テック | 科学に基づいた習慣化アプリ & Webアプリ開発講座",
+    title: "Habit Labo | 科学に基づいた習慣化アプリ & Webアプリ開発講座",
     description: "ゲーミフィケーションで楽しく継続できる習慣化アプリと、実践的なWebアプリ開発講座",
     type: "website",
     url: "https://habit-tech.vercel.app",

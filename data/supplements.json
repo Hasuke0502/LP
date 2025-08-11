@@ -1,0 +1,59 @@
+[
+  {
+    "id": "vitamin-d3-k2",
+    "title": "NOW Foods ビタミンD3＆K2 120粒",
+    "description": "骨の健康とカルシウム吸収をサポートするビタミンD3とK2の組み合わせ。1日1粒で効率的な栄養補給。",
+    "category": "ビタミン・ミネラル",
+    "tags": ["ビタミンD", "ビタミンK", "骨の健康", "カルシウム"],
+    "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800&h=450&fit=crop&auto=format",
+    "iherbUrl": "https://jp.iherb.com/pr/now-foods-vitamin-d-3-k-2-120-veggie-caps/694",
+    "price": "$13.99 (約2,100円)",
+    "featured": true
+  },
+  {
+    "id": "olive-oil",
+    "title": "California Olive Ranch グローバルブレンド エキストラバージンオリーブオイル 500ml",
+    "description": "高品質なエキストラバージンオリーブオイル。心臓の健康と抗酸化作用をサポート。日常の料理に最適。",
+    "category": "オイル・脂質",
+    "tags": ["オリーブオイル", "心臓", "抗酸化", "料理"],
+    "image": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&h=450&fit=crop&auto=format",
+    "iherbUrl": "https://jp.iherb.com/pr/california-olive-ranch-global-blend-extra-virgin-olive-oil-16-9-fl-oz-500-ml/103",
+    "price": "$8.99 (約1,350円)",
+    "featured": true
+  },
+  {
+    "id": "creatine",
+    "title": "Optimum Nutrition 微粉化クレアチンカプセル 200粒",
+    "description": "筋肉のパフォーマンスと筋力向上をサポートする微粉化クレアチン。1粒あたり1.25gの高濃度配合。",
+    "category": "アミノ酸・タンパク質",
+    "tags": ["クレアチン", "筋肉", "パフォーマンス", "筋力"],
+    "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800&h=450&fit=crop&auto=format",
+    "iherbUrl": "https://jp.iherb.com/pr/optimum-nutrition-micronized-creatine-capsules-200-caps/112",
+    "price": "$19.99 (約3,000円)",
+    "featured": true
+  },
+  {
+    "id": "melatonin",
+    "title": "Source Naturals Sleep Science NightRest メラトニン配合 100粒",
+    "description": "自然な睡眠サイクルをサポートするメラトニン配合のサプリメント。質の高い睡眠を促進。",
+    "category": "睡眠・リラクゼーション",
+    "tags": ["メラトニン", "睡眠", "リラクゼーション", "睡眠サイクル"],
+    "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800&h=450&fit=crop&auto=format",
+    "iherbUrl": "https://jp.iherb.com/pr/source-naturals-sleep-science-nightrest-melatonin-100-tablets/123",
+    "price": "$12.99 (約1,950円)",
+    "featured": true
+  },
+  {
+    "id": "garlic-extract",
+    "title": "Kyolic 熟成ニンニクエキス Cardiovascular フォーミュラ100 300粒",
+    "description": "心血管の健康をサポートする熟成ニンニクエキス。血圧とコレステロールの正常化を促進。",
+    "category": "心血管・循環器",
+    "tags": ["ニンニク", "心血管", "血圧", "コレステロール"],
+    "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800&h=450&fit=crop&auto=format",
+    "iherbUrl": "https://jp.iherb.com/pr/kyolic-aged-garlic-extract-cardiovascular-formula-100-300-capsules/456",
+    "price": "$24.99 (約3,750円)",
+    "featured": true
+  }
+]
+
+
