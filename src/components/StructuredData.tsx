@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 
 interface StructuredDataProps {
-  data: Record<string, any>;
+  data: Record<string, unknown>;
 }
 
 export function StructuredData({ data }: StructuredDataProps) {
@@ -31,7 +31,7 @@ export function StructuredData({ data }: StructuredDataProps) {
 }
 
 // 習慣化アプリ用の構造化データ
-export function HabitAppStructuredData({ app }: { app: any }) {
+export function HabitAppStructuredData({ app }: { app: { name: string; description: string } }) {
   const data = {
     "@context": "https://schema.org",
     "@type": "MobileApplication",
@@ -55,7 +55,7 @@ export function HabitAppStructuredData({ app }: { app: any }) {
 }
 
 // Webアプリ開発講座用の構造化データ
-export function CourseStructuredData({ course }: { course: any }) {
+export function CourseStructuredData({ course }: { course: { name: string; description: string; price?: string } }) {
   const data = {
     "@context": "https://schema.org",
     "@type": "Course",
@@ -80,7 +80,7 @@ export function CourseStructuredData({ course }: { course: any }) {
 }
 
 // サプリメント管理アプリ用の構造化データ
-export function SupplementAppStructuredData({ supplement }: { supplement: any }) {
+export function SupplementAppStructuredData({ supplement }: { supplement: { name: string; description: string } }) {
   const data = {
     "@context": "https://schema.org",
     "@type": "MobileApplication",

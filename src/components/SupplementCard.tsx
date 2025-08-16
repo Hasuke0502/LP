@@ -10,7 +10,7 @@ interface SupplementCardProps {
 
 // Google Analyticsの型定義
 interface WindowWithGtag extends Window {
-  gtag?: (command: string, action: string, params: Record<string, unknown>) => void;
+  gtag: (command: string, action: string, params?: Record<string, unknown>) => void;
 }
 
 export function SupplementCard({ product }: SupplementCardProps) {
@@ -52,15 +52,13 @@ export function SupplementCard({ product }: SupplementCardProps) {
           asChild
           className="w-full bg-green-600 hover:bg-green-700"
           onClick={() => {
-            if (typeof window !== 'undefined') {
+            if (typeof window !== 'undefined' && 'gtag' in window) {
               const windowWithGtag = window as WindowWithGtag;
-              if (windowWithGtag.gtag) {
-                windowWithGtag.gtag('event', 'supplement_click', {
-                  event_category: 'affiliate',
-                  event_label: product.id,
-                  value: 1,
-                });
-              }
+              windowWithGtag.gtag('event', 'supplement_click', {
+                event_category: 'affiliate',
+                event_label: product.id,
+                value: 1,
+              });
             }
           }}
         >

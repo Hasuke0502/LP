@@ -1,7 +1,5 @@
 'use client';
 
-import { Metadata } from 'next';
-
 // エラーページのメタデータ（クライアントコンポーネントでは使用できないため、コメントアウト）
 /*
 export const metadata: Metadata = {

@@ -2,6 +2,36 @@
 
 import { useEffect } from 'react';
 
+// Performance APIの型定義
+interface PerformanceEventTiming extends PerformanceEntry {
+  processingStart: number;
+  startTime: number;
+}
+
+interface PerformanceNavigationTiming extends PerformanceEntry {
+  domainLookupStart: number;
+  domainLookupEnd: number;
+  connectStart: number;
+  connectEnd: number;
+  requestStart: number;
+  responseEnd: number;
+  domContentLoadedEventStart: number;
+  domContentLoadedEventEnd: number;
+  loadEventStart: number;
+  loadEventEnd: number;
+  navigationStart: number;
+}
+
+interface PerformanceResourceTiming extends PerformanceEntry {
+  transferSize: number;
+  initiatorType: string;
+}
+
+interface LayoutShiftEntry extends PerformanceEntry {
+  hadRecentInput: boolean;
+  value: number;
+}
+
 export function PerformanceMonitor() {
   useEffect(() => {
     // Core Web Vitalsの測定
@@ -21,8 +51,11 @@ export function PerformanceMonitor() {
       const fidObserver = new PerformanceObserver((list) => {
         const entries = list.getEntries();
         entries.forEach((entry) => {
-          console.log('FID:', entry.processingStart - entry.startTime);
-          // ここでAnalyticsに送信
+          if ('processingStart' in entry && 'startTime' in entry) {
+            const fidEntry = entry as PerformanceEventTiming;
+            console.log('FID:', fidEntry.processingStart - fidEntry.startTime);
+            // ここでAnalyticsに送信
+          }
         });
       });
       fidObserver.observe({ entryTypes: ['first-input'] });
@@ -31,9 +64,12 @@ export function PerformanceMonitor() {
       const clsObserver = new PerformanceObserver((list) => {
         let clsValue = 0;
         const entries = list.getEntries();
-        entries.forEach((entry: any) => {
-          if (!entry.hadRecentInput) {
-            clsValue += entry.value;
+        entries.forEach((entry) => {
+          if ('hadRecentInput' in entry && 'value' in entry) {
+            const clsEntry = entry as LayoutShiftEntry;
+            if (!clsEntry.hadRecentInput) {
+              clsValue += clsEntry.value;
+            }
           }
         });
         console.log('CLS:', clsValue);
@@ -81,10 +117,10 @@ export function getResourceTiming() {
   if (typeof window === 'undefined') return [];
 
   const resources = performance.getEntriesByType('resource');
-  return resources.map((resource: any) => ({
+  return resources.map((resource) => ({
     name: resource.name,
     duration: resource.duration,
-    size: resource.transferSize,
-    type: resource.initiatorType,
+    size: (resource as PerformanceResourceTiming).transferSize,
+    type: (resource as PerformanceResourceTiming).initiatorType,
   }));
 }

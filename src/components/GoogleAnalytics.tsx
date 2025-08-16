@@ -51,6 +51,6 @@ export const trackPageView = (url: string) => {
 // gtag型定義の拡張
 declare global {
   interface Window {
-    gtag: (...args: any[]) => void;
+    gtag: (command: string, action: string, params?: Record<string, unknown>) => void;
   }
 }
