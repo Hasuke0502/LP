@@ -1,5 +1,19 @@
 'use client';
 
+import { Metadata } from 'next';
+
+// エラーページのメタデータ（クライアントコンポーネントでは使用できないため、コメントアウト）
+/*
+export const metadata: Metadata = {
+  title: "エラーが発生しました | Habit Labo",
+  description: "ページの読み込み中にエラーが発生しました。しばらく時間をおいてから再度お試しください。",
+  robots: {
+    index: false,
+    follow: false,
+  },
+};
+*/
+
 import { Button } from '@/components/ui/Button';
 import { AlertTriangle, RefreshCw } from 'lucide-react';
 import Link from 'next/link';

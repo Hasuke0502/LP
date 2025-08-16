@@ -19,7 +19,7 @@
     "category": "健康・ウェルネス",
     "tags": ["ダイエット", "健康管理", "習慣化", "運動"],
     "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=225&fit=crop&auto=format",
-    "featured": true,
-    "comingSoon": true
+    "webUrl": "https://diet30dayschallenge.vercel.app/",
+    "featured": true
   }
 ]

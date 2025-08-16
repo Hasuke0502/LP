@@ -1,3 +1,14 @@
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: "読み込み中 | Habit Labo",
+  description: "ページを読み込み中です。しばらくお待ちください。",
+  robots: {
+    index: false,
+    follow: false,
+  },
+};
+
 export default function Loading() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 via-purple-50 to-pink-50 dark:from-gray-900 dark:via-blue-900 dark:to-purple-900">

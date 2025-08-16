@@ -1,0 +1,11 @@
+/* TEAM */
+Developer: 習慣化テック
+Site: https://habit-tech.vercel.app
+Twitter: @habit_tech
+Location: 日本
+
+/* SITE */
+Last update: 2024
+Standards: HTML5, CSS3, JavaScript ES6+
+Components: Next.js, React, TypeScript, Tailwind CSS
+Software: Visual Studio Code, Figma

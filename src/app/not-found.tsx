@@ -1,6 +1,16 @@
 import { Button } from '@/components/ui/Button';
 import { Search, Home } from 'lucide-react';
 import Link from 'next/link';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: "ページが見つかりません | Habit Labo",
+  description: "お探しのページが見つかりませんでした。習慣化テックのホームページに戻って、習慣化アプリやWebアプリ開発講座をお探しください。",
+  robots: {
+    index: false,
+    follow: false,
+  },
+};
 
 export default function NotFound() {
   return (
